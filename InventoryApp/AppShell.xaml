@@ -4,12 +4,12 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:InventoryApp"
+    xmlns:views="clr-namespace:InventoryApp.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="InventoryApp">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    Title="Leltár"
+    ContentTemplate="{DataTemplate views:ProductsPage}"
+    Route="ProductsPage" />
 </Shell>

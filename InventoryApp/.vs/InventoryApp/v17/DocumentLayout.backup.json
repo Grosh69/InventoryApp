@@ -3,15 +3,64 @@
   "WorkspaceRootPath": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\inventoryapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:inventoryapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.319\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\views\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:views\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\views\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:views\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\viewmodels\\productsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:viewmodels\\productsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\views\\productdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:views\\productdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\viewmodels\\addproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:viewmodels\\addproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\views\\productdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:views\\productdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\views\\addproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:views\\addproductpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\views\\addproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:views\\addproductpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\converters\\quantitytocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:converters\\quantitytocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\inventoryapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|solutionrelative:inventoryapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41E4C2E9-7754-4983-8B68-0CABFBDAD907}|InventoryApp.csproj|c:\\abi\\projektek\\inventoryapp\\inventoryapp\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,63 +82,210 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InventoryApp.csproj",
-              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\InventoryApp.csproj",
-              "RelativeDocumentMoniker": "InventoryApp.csproj",
-              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\InventoryApp.csproj",
-              "RelativeToolTip": "InventoryApp.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-24T16:08:27.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.319\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.319\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.319\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.319\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAAABIAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-10-24T16:06:06.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T15:59:43.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-25T12:54:45.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService.cs",
-              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Services\\ProductService.cs",
-              "RelativeToolTip": "Services\\ProductService.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAIwGEAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "ProductDetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Views\\ProductDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProductDetailsPage.xaml.cs",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Views\\ProductDetailsPage.xaml.cs",
+              "RelativeToolTip": "Views\\ProductDetailsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T15:53:56.456Z",
+              "WhenOpened": "2026-10-25T12:52:22.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Views\\ProductDetailsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ProductDetailsPage.xaml",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Views\\ProductDetailsPage.xaml",
+              "RelativeToolTip": "Views\\ProductDetailsPage.xaml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-25T12:51:51.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ProductDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\ViewModels\\ProductDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProductDetailsViewModel.cs",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\ViewModels\\ProductDetailsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProductDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T12:46:10.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddProductPage.xaml.cs",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Views\\AddProductPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AddProductPage.xaml.cs",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Views\\AddProductPage.xaml.cs",
+              "RelativeToolTip": "Views\\AddProductPage.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T12:35:13.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddProductPage.xaml",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Views\\AddProductPage.xaml",
+              "RelativeDocumentMoniker": "Views\\AddProductPage.xaml",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Views\\AddProductPage.xaml",
+              "RelativeToolTip": "Views\\AddProductPage.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-25T12:34:40.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddProductViewModel.cs",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\ViewModels\\AddProductViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AddProductViewModel.cs",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\ViewModels\\AddProductViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AddProductViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T12:33:21.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-25T12:28:22.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T12:28:18.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Views\\ProductsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProductsPage.xaml.cs",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Views\\ProductsPage.xaml.cs",
+              "RelativeToolTip": "Views\\ProductsPage.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAApwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T12:27:37.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsPage.xaml",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Views\\ProductsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ProductsPage.xaml",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Views\\ProductsPage.xaml",
+              "RelativeToolTip": "Views\\ProductsPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-25T12:27:01.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsViewModel.cs",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\ViewModels\\ProductsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProductsViewModel.cs",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\ViewModels\\ProductsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProductsViewModel.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAADwvz0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T12:24:24.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "QuantityToColorConverter.cs",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Converters\\QuantityToColorConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\QuantityToColorConverter.cs",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Converters\\QuantityToColorConverter.cs",
+              "RelativeToolTip": "Converters\\QuantityToColorConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T12:23:24.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InventoryApp.csproj",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\InventoryApp.csproj",
+              "RelativeDocumentMoniker": "InventoryApp.csproj",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\InventoryApp.csproj",
+              "RelativeToolTip": "InventoryApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-25T12:22:40.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T15:59:43.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T15:53:56.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Services\\IProductService.cs",
               "RelativeDocumentMoniker": "Services\\IProductService.cs",
@@ -97,21 +293,19 @@
               "RelativeToolTip": "Services\\IProductService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T15:52:36.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-24T15:52:36.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
               "ToolTip": "C:\\Abi\\Projektek\\InventoryApp\\InventoryApp\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T14:42:12.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-24T14:42:12.345Z"
             }
           ]
         }

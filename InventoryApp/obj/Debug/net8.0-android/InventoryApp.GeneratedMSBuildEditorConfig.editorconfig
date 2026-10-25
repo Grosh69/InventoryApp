@@ -52,3 +52,21 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InventoryApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Abi/Projektek/InventoryApp/InventoryApp/Views/AddProductPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InventoryApp.Views.AddProductPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddProductPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddProductPage.xaml
+
+[C:/Abi/Projektek/InventoryApp/InventoryApp/Views/ProductDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InventoryApp.Views.ProductDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProductDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProductDetailsPage.xaml
+
+[C:/Abi/Projektek/InventoryApp/InventoryApp/Views/ProductsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InventoryApp.Views.ProductsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProductsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProductsPage.xaml

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:InventoryApp.ViewModels"
+             x:Class="InventoryApp.Views.AddProductPage"
+             x:DataType="viewmodels:AddProductViewModel"
+             Title="Új termék felvétele">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="16" Padding="20">
+            <Label Text="{Binding ErrorMessage}"
+       TextColor="Crimson"
+       FontAttributes="Bold">
+                <Label.Triggers>
+                    <DataTrigger TargetType="Label" Binding="{Binding ErrorMessage}" Value="">
+                        <Setter Property="IsVisible" Value="False" />
+                    </DataTrigger>
+                </Label.Triggers>
+            </Label>
+
+            <VerticalStackLayout Spacing="6">
+                <Label Text="Termék megnevezése *" FontAttributes="Bold" />
+                <Entry Text="{Binding Name}" Placeholder="pl. Alma 1kg" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="6">
+                <Label Text="Vonalkód *" FontAttributes="Bold" />
+                <Entry Text="{Binding Barcode}" Placeholder="pl. 599123456789" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="6">
+                <Label Text="Egységár (Ft) *" FontAttributes="Bold" />
+                <Entry Text="{Binding PriceText}" Keyboard="Numeric" Placeholder="pl. 650" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="6">
+                <Label Text="Készletmennyiség (db) *" FontAttributes="Bold" />
+                <Entry Text="{Binding QuantityText}" Keyboard="Numeric" Placeholder="pl. 10" />
+            </VerticalStackLayout>
+
+            <Grid ColumnDefinitions="*, *" ColumnSpacing="12" Margin="0,20,0,0">
+                <Button Grid.Column="0"
+                        Text="Mégse"
+                        Command="{Binding CancelCommand}"
+                        BackgroundColor="#757575"
+                        TextColor="White" />
+                <Button Grid.Column="1"
+                        Text="Mentés"
+                        Command="{Binding SaveCommand}"
+                        BackgroundColor="#2E7D32"
+                        TextColor="White" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

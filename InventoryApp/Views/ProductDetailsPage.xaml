@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:InventoryApp.ViewModels"
+             x:Class="InventoryApp.Views.ProductDetailsPage"
+             x:DataType="viewmodels:ProductDetailsViewModel"
+             Title="Termék szerkesztése">
+
+    <Grid>
+        <ActivityIndicator IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+
+        <ScrollView>
+            <VerticalStackLayout Spacing="16" Padding="20">
+                <Label Text="{Binding ErrorMessage}"
+                       TextColor="Crimson"
+                       FontAttributes="Bold">
+                    <Label.Triggers>
+                        <DataTrigger TargetType="Label" Binding="{Binding ErrorMessage}" Value="">
+                            <Setter Property="IsVisible" Value="False" />
+                        </DataTrigger>
+                    </Label.Triggers>
+                </Label>
+
+                <VerticalStackLayout Spacing="6">
+                    <Label Text="Termék azonosító" FontSize="12" TextColor="Gray" />
+                    <Label Text="{Binding ProductId, StringFormat='ID: #{0}'}" FontSize="16" FontAttributes="Bold" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="6">
+                    <Label Text="Termék megnevezése *" FontAttributes="Bold" />
+                    <Entry Text="{Binding Name}" Placeholder="Terméknév" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="6">
+                    <Label Text="Vonalkód *" FontAttributes="Bold" />
+                    <Entry Text="{Binding Barcode}" Placeholder="Vonalkód" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="6">
+                    <Label Text="Egységár (Ft) *" FontAttributes="Bold" />
+                    <Entry Text="{Binding PriceText}" Keyboard="Numeric" Placeholder="Ár" />
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="6">
+                    <Label Text="Készletmennyiség (db) *" FontAttributes="Bold" />
+                    <Entry Text="{Binding QuantityText}" Keyboard="Numeric" Placeholder="Mennyiség" />
+                </VerticalStackLayout>
+
+                <Grid ColumnDefinitions="*, *" ColumnSpacing="12" Margin="0,20,0,0">
+                    <Button Grid.Column="0"
+                            Text="Mégse"
+                            Command="{Binding CancelCommand}"
+                            BackgroundColor="#757575"
+                            TextColor="White" />
+                    <Button Grid.Column="1"
+                            Text="Módosítás mentése"
+                            Command="{Binding SaveCommand}"
+                            BackgroundColor="#1976D2"
+                            TextColor="White" />
+                </Grid>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

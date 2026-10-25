@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:InventoryApp.ViewModels"
+             xmlns:models="clr-namespace:InventoryApp.Models"
+             xmlns:converters="clr-namespace:InventoryApp.Converters"
+             x:Class="InventoryApp.Views.ProductsPage"
+             x:DataType="viewmodels:ProductsViewModel"
+             Title="Leltár - Termékek">
+
+    <ContentPage.Resources>
+        <converters:QuantityToColorConverter x:Key="QuantityToColorConverter"
+                                             OutOfStockColor="Crimson"
+                                             NormalColor="#2B2B2B" />
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Új termék" Command="{Binding AddProductCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <Grid RowDefinitions="Auto, *">
+
+        <SearchBar Grid.Row="0"
+                   Placeholder="Keresés név vagy vonalkód alapján..."
+                   Text="{Binding SearchText}"
+                   SearchCommand="{Binding LoadProductsCommand}"
+                   Margin="8" />
+
+        <ActivityIndicator Grid.Row="1"
+                           IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+
+        <CollectionView Grid.Row="1"
+                        ItemsSource="{Binding Products}"
+                        SelectionMode="None"
+                        IsVisible="{Binding IsBusy, Converter={StaticResource QuantityToColorConverter}}">
+            <CollectionView.EmptyView>
+                <Label Text="Nincs találat vagy a lista üres."
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       TextColor="Gray" />
+            </CollectionView.EmptyView>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Product">
+                    <Border Stroke="#E0E0E0"
+                            StrokeThickness="1"
+                            StrokeShape="RoundRectangle 8"
+                            Margin="8,4"
+                            Padding="12">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:ProductsViewModel}}, Path=ProductSelectedCommand}"
+                                CommandParameter="{Binding .}" />
+                        </Border.GestureRecognizers>
+
+                        <Grid ColumnDefinitions="*, Auto" RowDefinitions="Auto, Auto">
+
+                            <Label Grid.Row="0" Grid.Column="0"
+                                   Text="{Binding Name}"
+                                   FontAttributes="Bold"
+                                   FontSize="16" />
+                            <Label Grid.Row="1" Grid.Column="0"
+                                   Text="{Binding Barcode, StringFormat='Vonalkód: {0}'}"
+                                   FontSize="13"
+                                   TextColor="Gray" />
+
+                            <Label Grid.Row="0" Grid.Column="1"
+                                   Text="{Binding Price, StringFormat='{0:N2} Ft'}"
+                                   FontAttributes="Bold"
+                                   HorizontalTextAlignment="End" />
+
+                            <Label Grid.Row="1" Grid.Column="1"
+                                   Text="{Binding Quantity, StringFormat='Készlet: {0} db'}"
+                                   TextColor="{Binding Quantity, Converter={StaticResource QuantityToColorConverter}}"
+                                   FontAttributes="{Binding Quantity, Converter={StaticResource QuantityToColorConverter}}"
+                                   HorizontalTextAlignment="End" />
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>
