@@ -7,6 +7,7 @@ namespace InventoryApp
         public AppShell()
         {
             Routing.RegisterRoute(nameof(ProductDetailsPage), typeof(ProductDetailsPage));
+            Routing.RegisterRoute(nameof(AddProductPage), typeof(AddProductPage));
             InitializeComponent();
         }
     }

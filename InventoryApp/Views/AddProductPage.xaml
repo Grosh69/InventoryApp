@@ -9,14 +9,8 @@
     <ScrollView>
         <VerticalStackLayout Spacing="16" Padding="20">
             <Label Text="{Binding ErrorMessage}"
-       TextColor="Crimson"
-       FontAttributes="Bold">
-                <Label.Triggers>
-                    <DataTrigger TargetType="Label" Binding="{Binding ErrorMessage}" Value="">
-                        <Setter Property="IsVisible" Value="False" />
-                    </DataTrigger>
-                </Label.Triggers>
-            </Label>
+                   TextColor="Crimson"
+                   FontAttributes="Bold" />
 
             <VerticalStackLayout Spacing="6">
                 <Label Text="Termék megnevezése *" FontAttributes="Bold" />
