@@ -1,0 +1,10 @@
+## Visual Studio cache és beállítások
+.vs/
+*.user
+*.suo
+
+## Build kimenetek (binárisok és generált kódok)
+bin/
+obj/
+**/bin/
+**/obj/
